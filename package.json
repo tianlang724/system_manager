@@ -1,0 +1,59 @@
+{
+  "name": "manage-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.pro.js --mode production --progress --colors --hot",
+    "start": "webpack-dev-server --config webpack.dev.js --inline --mode development --progress --colors --hot",
+    "publish": "webpack --mode production --progress --colors --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.code.oa.com/litingyang/manage-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^3.6.6",
+    "autoprefixer": "^8.6.5",
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-mysql-session": "^2.0.0",
+    "express-session": "^1.15.6",
+    "mysql": "^2.15.0",
+    "path": "^0.12.7",
+    "postcss-cli": "^5.0.1",
+    "postcss-discard-unused": "^4.0.0",
+    "precss": "^3.1.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "webpack": "^4.16.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-import": "^1.8.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "cssnano": "^4.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.2",
+    "optimize-css-assets-webpack-plugin": "^4.0.3",
+    "postcss-loader": "^2.1.6",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack-cli": "^3.0.8"
+  }
+}
